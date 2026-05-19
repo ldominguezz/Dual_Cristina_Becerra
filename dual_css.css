@@ -927,3 +927,60 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 600px) {
+    nav {
+    padding: 1rem 1.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  section {
+    padding: 4rem 1.5rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 7rem 1.5rem 3rem;
+    gap: 3rem;
+  }
+  .hero-visual {
+    display: none;
+  }
+  .empresa-grid,
+  .tasques-grid,
+  .obj-list,
+  .aprenen-list,
+  .valoracio {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .proj-grid-3,
+  .proj-grid-2,
+  .proj-grid-4 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .phase-final {
+    grid-template-columns: 1fr;
+  }
+  .phase-final-img {
+    min-height: 180px;
+  }
+  .flux-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+  .flux-steps::before {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .footer-info {
+    text-align: center;
+  }
+  .scroll-dot {
+    display: none;
+  }
+}
